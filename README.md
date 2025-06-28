@@ -19,7 +19,7 @@ This project is an exploratory data analysis (EDA) of the Superstore sales datas
 
 ---
 
-## Project Steps
+### Project Steps
 
 ### 1️⃣ Download Data
 
@@ -32,3 +32,26 @@ This project is an exploratory data analysis (EDA) of the Superstore sales datas
 - Created the `Superstore` database:
   ```sql
   CREATE DATABASE Superstore;
+  USE Superstore;
+-Created a table superstore_sales matching the CSV columns.
+Loaded the CSV into the table using either MySQL Workbench import or LOAD DATA INFILE.
+
+### 3️⃣ Verify MySQL Connection
+### 4️⃣ Python Environment
+Used macOS system Python:
+Python 3.9
+JupyterLab
+
+### Files in this Repository
+Superstore-Analysis.ipynb — Jupyter Notebook with full EDA code
+Superstore.csv — original raw dataset
+superstore_cleaned.csv — cleaned dataset after removing duplicates and correcting data types
+requirements.txt — list of required Python modules
+
+### Notes
+This analysis is exploratory only; no predictive modeling was performed yet.
+
+## Credits
+Dataset: Kaggle user vivek468
+
+# Coded by priyanshupritam.
